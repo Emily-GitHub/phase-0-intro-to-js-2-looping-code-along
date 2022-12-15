@@ -1,4 +1,4 @@
-Code your solutions in this file
+// Code your solutions in this file
 function writeCards (names, event) {
     let cards = [];
     for (let i = 0; i < names.length; i++) {
@@ -12,6 +12,8 @@ function countDown( startingNumber ) {
       console.log( startingNumber );
       startingNumber -= 1;
     }
+
+    console.log( startingNumber );
   }
 
 
